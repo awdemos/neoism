@@ -9,8 +9,8 @@ else
 fi
 PREFIX="${PREFIX:-$HOME/.local}"
 BIN_DIR="${BIN_DIR:-$PREFIX/bin}"
-NEOISM_REPO="${NEOISM_REPO:-https://github.com/parkers0405/neoism.git}"
-NEOISM_GH_REPO="${NEOISM_GH_REPO:-parkers0405/neoism}"
+NEOISM_REPO="${NEOISM_REPO:-https://github.com/awdemos/neoism.git}"
+NEOISM_GH_REPO="${NEOISM_GH_REPO:-awdemos/neoism}"
 NEOISM_REF="${NEOISM_REF:-main}"
 NEOISM_DIR="${NEOISM_DIR:-$HOME/.local/src/neoism}"
 PROFILE="release"

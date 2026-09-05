@@ -119,7 +119,7 @@ in
       homepage = cargoToml.workspace.package.homepage;
       license = lib.licenses.mit;
       platforms = lib.platforms.unix;
-      changelog = "https://github.com/parkers0405/neoism/blob/main/CHANGELOG.md";
+      changelog = "https://github.com/awdemos/neoism/blob/main/CHANGELOG.md";
       mainProgram = "neoism";
     };
   }

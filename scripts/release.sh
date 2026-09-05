@@ -3,7 +3,7 @@
 #
 # The tag triggers .github/workflows/release-neoism.yml, which builds the
 # stack per-OS and publishes the tarballs to the GitHub Releases of
-# parkers0405/neoism, which `neoism update` and the curl installer pull
+# awdemos/neoism, which `neoism update` and the curl installer pull
 # from. The tag MUST match the crate version (`neoism update` compares
 # `v<CARGO_PKG_VERSION>` against the release tag), which is why this script
 # owns the bump.
@@ -45,8 +45,8 @@ git push origin main "v$VERSION"
 cat <<EOF
 
 Release v$VERSION is building:
-  https://github.com/parkers0405/neoism/actions/workflows/release-neoism.yml
+  https://github.com/awdemos/neoism/actions/workflows/release-neoism.yml
 When green, it publishes to:
-  https://github.com/parkers0405/neoism/releases
+  https://github.com/awdemos/neoism/releases
 Users then get it with:  neoism update
 EOF

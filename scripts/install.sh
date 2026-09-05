@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Neoism installer — downloads the prebuilt stack from GitHub Releases.
 #
-#   curl -fsSL https://raw.githubusercontent.com/parkers0405/neoism/main/scripts/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/awdemos/neoism/main/scripts/install.sh | bash
 #
 # This is the public *download* installer: it fetches the latest prebuilt
 # release from the main neoism repo's GitHub Releases. The source repo is
@@ -13,10 +13,10 @@
 # Env overrides:
 #   NEOISM_VERSION   pin a release tag (default: latest)
 #   NEOISM_BIN_DIR   install dir (default: ~/.local/bin)
-#   NEOISM_REPO      owner/repo (default: parkers0405/neoism)
+#   NEOISM_REPO      owner/repo (default: awdemos/neoism)
 set -euo pipefail
 
-REPO="${NEOISM_REPO:-parkers0405/neoism}"  # GitHub repo whose Releases host the prebuilt binaries
+REPO="${NEOISM_REPO:-awdemos/neoism}"  # GitHub repo whose Releases host the prebuilt binaries
 BIN_DIR="${NEOISM_BIN_DIR:-${HOME}/.local/bin}"
 VERSION="${NEOISM_VERSION:-latest}"
 BINARIES=(neoism neoism-workspace-daemon neoism-agent)
