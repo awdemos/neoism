@@ -1044,7 +1044,7 @@ fn is_host_process(pid: u32) -> bool {
 fn self_update(force: bool) -> Result<(), Box<dyn std::error::Error>> {
     // Public binaries repo (source stays private). Override with NEOISM_REPO.
     let repo =
-        std::env::var("NEOISM_REPO").unwrap_or_else(|_| "parkers0405/neoism".to_string());
+        std::env::var("NEOISM_REPO").unwrap_or_else(|_| "awdemos/neoism".to_string());
     let repo = repo.as_str();
     #[cfg(not(windows))]
     const BINS: [&str; 3] = ["neoism", "neoism-workspace-daemon", "neoism-agent"];

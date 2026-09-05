@@ -1,6 +1,6 @@
 # Neoism Windows installer - downloads the prebuilt stack from GitHub Releases.
 #
-#   irm https://raw.githubusercontent.com/parkers0405/neoism/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/awdemos/neoism/main/install.ps1 | iex
 #   powershell -ExecutionPolicy Bypass -File install.ps1                # latest release
 #   powershell -ExecutionPolicy Bypass -File install.ps1 -Version v0.7.6
 #   powershell -ExecutionPolicy Bypass -File install.ps1 -Uninstall
@@ -18,7 +18,7 @@
 [CmdletBinding()]
 param(
     [string]$Version = "latest",
-    [string]$Repo = "parkers0405/neoism",
+    [string]$Repo = "awdemos/neoism",
     [switch]$Uninstall
 )
 
