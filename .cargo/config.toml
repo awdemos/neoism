@@ -23,3 +23,7 @@ rustflags = "--cfg windows_slim_errors"
 # both copies are the same upstream glslang, so first-definition-wins is safe.
 # Passed via the cc driver (`-Wl,`) to match the default linux linker flavor.
 rustflags = ["-C", "link-arg=-Wl,--allow-multiple-definition"]
+
+# managed-by: awdemos-cargo-target-provision (appended [build] target-dir only)
+[build]
+target-dir = "/.cargo-targets/targets/neoism/main/target"
