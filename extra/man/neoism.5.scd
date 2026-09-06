@@ -446,7 +446,7 @@ This section documents the *[developer]* table of the configuration file.
 
 # BUGS
 
-Found a bug? Please report it at _https://github.com/parkers0405/neoism/issues_.
+Found a bug? Please report it at _https://github.com/awdemos/neoism/issues_.
 
 # MAINTAINERS
 

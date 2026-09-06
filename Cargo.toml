@@ -35,9 +35,9 @@ license = "MIT"
 keywords = ["graphics", "terminal", "application"]
 # Minimal stable rust version (MSRV)
 rust-version = "1.92.0"
-repository = "https://github.com/parkers0405/neoism"
-homepage = "https://github.com/parkers0405/neoism"
-documentation = "https://github.com/parkers0405/neoism#readme"
+repository = "https://github.com/awdemos/neoism"
+homepage = "https://github.com/awdemos/neoism"
+documentation = "https://github.com/awdemos/neoism#readme"
 readme = "README.md"
 
 [workspace.dependencies]

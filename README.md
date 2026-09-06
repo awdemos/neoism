@@ -1,6 +1,6 @@
 # Neoism
 
-> **Neoism is open source under the [MIT License](LICENSE).** Its terminal core and GPU renderer descend from [Rio](https://github.com/raphamorim/rio) (itself descended from Alacritty); the editor, agent runtime, workspace daemon, sync/CRDT layer, notebooks, drawings, and UI chrome are first-party. See [NOTICE](NOTICE) for full third-party attribution. Prebuilt binaries are also available from [GitHub Releases](https://github.com/parkers0405/neoism/releases).
+> **Neoism is open source under the [MIT License](LICENSE).** Its terminal core and GPU renderer descend from [Rio](https://github.com/raphamorim/rio) (itself descended from Alacritty); the editor, agent runtime, workspace daemon, sync/CRDT layer, notebooks, drawings, and UI chrome are first-party. See [NOTICE](NOTICE) for full third-party attribution. Prebuilt binaries are also available from [GitHub Releases](https://github.com/awdemos/neoism/releases).
 
 Neoism is a GPU-rendered terminal-first workspace for code, notes, agents, and multiplayer editing.
 
@@ -23,10 +23,10 @@ Neoism is not an Electron IDE and it is not a normal web terminal. The desktop a
 
 ### Prebuilt (recommended)
 
-Prebuilt binaries for Linux (x86_64) and macOS (Apple Silicon) are published to the [Releases page](https://github.com/parkers0405/neoism/releases):
+Prebuilt binaries for Linux (x86_64) and macOS (Apple Silicon) are published to the [Releases page](https://github.com/awdemos/neoism/releases):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/parkers0405/neoism/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/awdemos/neoism/main/scripts/install.sh | bash
 ```
 
 This installs `neoism`, `neoism-workspace-daemon`, and `neoism-agent` into `~/.local/bin` (plus the Tree-sitter runtime bundle next to them). First launch bootstraps the rest automatically: terminfo, desktop launcher + icons, default config, and parsers into your data dir. Runtime expectations: `nvim` and `ripgrep` on `PATH`.
@@ -46,7 +46,7 @@ export PATH="$HOME/.local/bin:$PATH"
 ### Build from source
 
 ```sh
-git clone https://github.com/parkers0405/neoism.git neoism
+git clone https://github.com/awdemos/neoism.git neoism
 cd neoism
 ./install.sh
 ```
